@@ -1,6 +1,6 @@
 Name:           cglib
 Version:        2.2
-Release:        17%{?dist}
+Release:        18%{?dist}
 Summary:        Code Generation Library for Java
 License:        ASL 2.0 and BSD
 Group:          Development/Tools
@@ -72,6 +72,9 @@ cp -rp docs/* %{buildroot}%{_javadocdir}/%{name}
 %{_javadocdir}/%{name}
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.2-18
+- Mass rebuild 2013-12-27
+
 * Thu Nov 07 2013 Stanislav Ochotnicky <sochotnicky@redhat.com> - 2.2-17
 - Remove old macro invocation
 - Resolves: rhbz#1027717
